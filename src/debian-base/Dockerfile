@@ -18,7 +18,7 @@ ENV CONFD_VERSION=${CONFD_VERSION:-0.11.0}
 LABEL architecture="amd64" \
   vendor=stonevil \
   com.stonevil.os="debian" \
-  com.stonevil.version="latest" \
+  com.stonevil.os.version="latest" \
   com.stonevil.gosu.version=${GOSU_VERSION} \
   com.stonevil.confd.version=${CONFD_VERSION}
 
